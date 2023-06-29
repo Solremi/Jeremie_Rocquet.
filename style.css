@@ -29,7 +29,7 @@
   
   #p1 {
     font-style: italic;
-    font-style: bold;
+    font-weight: bold;
     color: rgba(5, 5, 5, 0.877);
     padding-top: 1%;
     text-align: center;
@@ -58,5 +58,9 @@
     height: 25rem;
     font-size: 300%;
     text-align: left;
-    
+    cursor: pointer;
   }
+  #button1:hover {
+background-color: rgba(104, 179, 223, 0.219);
+  }
+  
