@@ -20,7 +20,7 @@
   }
   
   #titre1 {
-    color: rgba(255, 255, 255, 0.664);
+    color: rgba(20, 19, 19, 0.315);
     padding-top: 8%;
     text-align: left;
     font-size: 700%;
@@ -49,11 +49,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    color: whitesmoke;
+    color: rgb(247, 238, 238);
+    padding-left: 15%;
+    padding-bottom: 15%;
     background-color: transparent;
     border-radius: 40%;
     border:none;
-    border-right: solid;
+    border-right: 0.5rem solid;
     width: 25rem;
     height: 25rem;
     font-size: 300%;
