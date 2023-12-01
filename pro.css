@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+html {
+    font-size: 62.5%;
+    min-width: 100vw;
+    min-height: 100vw;
+    background-image: url("images/4k-network-concepts-blue-abstract-background-lines-digital-art.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#div1 {
+    background-color: rgba(0, 0, 0, 0.575);
+    padding-top: 1%;
+    font-size: 400%;
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+    margin-left: -3%;
+}
+
+#div1 li {
+    color: rgba(243, 237, 237, 0.685);
+    font-weight: bold;
+    display: inline;
+    margin-left: 10%;
+        
+}
+
+#formation {
+    color: rgb(146, 146, 20);
+    font-size: 235%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+}
+
+#div2 {
+    padding-top: 5%;
+    width: 22%;
+    font-size: 200%;
+    line-height: 250%;
+    color: rgba(243, 237, 237, 0.685);
+    font-weight: bold;
+    display: inline-block;
+    padding-left: 3%;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+#petitplus {
+    color: rgb(146, 146, 20);
+    font-size: 135%;
+    padding-top: 10%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+}
+
+#div3 {
+    text-align: center;
+}
