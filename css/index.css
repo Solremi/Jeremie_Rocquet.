@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    background-color: black;
+  }
+
+  
+  h1{
+    font-size: 2.5rem;
+    color: rgba(245, 245, 245, 0.527);
+    padding: 1rem;
+  }
+
+  .main__title p { 
+    font-style: italic;
+    font-weight: bold;
+    color: rgba(252, 247, 247, 0.877);
+    padding-top: 1%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+
+  }
+  
+  .main__button {
+    margin-top: 2rem;
+    width: auto;
+    display: flex;
+  }
+
+  .button1 {
+    background-image: url(../images/robot1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(247, 238, 238);
+    padding-left: 2.5rem;
+    background-color: transparent;
+    border-radius: 40%;
+    border:none;
+    border-right: 0.5rem solid;
+    width: 15rem;
+    height: 15rem;
+    font-size: 2rem;
+    text-align: left;
+    cursor: pointer;
+  }
+  .button1:hover {
+    background-color: rgba(246, 249, 250, 0.349);
+    color: rgb(0, 255, 234);
+  }
+  
